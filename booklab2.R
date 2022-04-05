@@ -46,4 +46,3 @@ sale.sum <- sum(sale.day)
 sale.mean <- mean(sale.day)
 cafe.sale <- data.frame(sale.espresso, sale.cafelatte, sale.americano, sale.day)
 subset(cafe.sale, sale.day > sale.mean, sale.day)
-

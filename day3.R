@@ -3,6 +3,7 @@
 score <- c(1,3,2,4,2,1,3,5,1,3,3,3)
 class(score)
 summary(score)
+which(score)
 
 f_score <- factor(score)
 class(f_score)
