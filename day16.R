@@ -9,6 +9,7 @@ font_add(family = "maple", regular = "fonts/MaplestoryBold.ttf")
 install.packages("ggmap")
 library(ggmap)
 register_google(key='AIzaSyDy81EbO46BRSnX1DOgg_F84bhsdbku2z4')
+register_google(key = "AIzaSyBtDFHLBGKpLU7F8KBM4UZPFKDW5Bu0tM4")
 
 lon <- 126.9221322
 lat <- 37.5268831
